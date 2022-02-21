@@ -5,10 +5,6 @@ import "./homepage.css"
 import Header from '../../components/header/Header'
 
 
-
-
-
-
 export default function Home() {
 
 

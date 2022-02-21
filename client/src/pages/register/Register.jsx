@@ -39,15 +39,11 @@ export default function Register() {
 
             <div class="container">
                 <div class="row">
-                    <div class="col">
-
-                        <img src={registerimage}/>
-
-                    </div>
+                
                     <div class="col">
                     
-                        <span className="registerTitle">Register</span>
                         <form className="registerForm" onSubmit={handleSubmit}>
+                        <span className="registerTitle">Register</span>
 
                         <label>username</label>
                         <input type="text" className="registerInput" placeholder="Enter your organisation..." 

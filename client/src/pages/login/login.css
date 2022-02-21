@@ -1,63 +1,57 @@
-.login{
-    height: calc(100vh - 50px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #36096d;
-background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-    /* background: linear-gradient(240deg, #fff 50%, teal 50%); */
-    /* background: linear-gradient(
-        rgba(255,255,255,0.5),
-        rgba(255,255,255,0.5)
-    ), url("../../images/BgRegister.jpg");
-    background-size: cover; */
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 }
 
-.loginTitle{
-    font-size: 50px;
+.loginTitle {
+  font-size: 50px;
+  text-align: center;
 }
 
-.loginForm{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+.loginForm {
+  margin: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
-.loginForm > label{
-    margin: 10px 0;
+.loginForm > label {
+  margin: 10px 0;
 }
 
-
-.loginInput{
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid teal;
+.loginInput {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid teal;
 }
 
-.loginButton{
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: lightcoral;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.loginButton:disabled{
-    cursor: not-allowed;
-    background-color: rgb(252, 173, 173);
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
 }
 
-.loginRegisterButton{
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: teal;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }

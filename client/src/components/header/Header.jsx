@@ -6,26 +6,18 @@ export default function Header() {
     return (
         <>
 
-<div className="header container">
-            <div className="row justify-content-center">
-                    <div className="Title col-md-5">
-                        Student Portal
-             <div  className="img col-md-7">
-             <a href='/login'><button className="btn btn-outline-danger">Login</button></a>
-                  <a href='/register'><button className="btn btn-outline-danger">Register</button></a>  
-             </div>   
-                    </div>
-            </div>
-        <div  className="img justify-content-center" >
-             <img
-            className="headerImg" 
-            src={ImageHeader}
-            alt="" />   
-             </div>     
-        </div>
-       
-        
+       <div className="header container ">
 
+        <div className="img">
+        <h1>Student Portal </h1>
+       </div>
+
+        <div  className="img">
+             <a href='/login'><button className="btn btn-outline-light">Login</button></a>
+             <a href='/register'><button className="btn btn-outline-light">Register</button></a>  
+       </div>  
+
+      </div>
         </>
 
     )

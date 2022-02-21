@@ -5,9 +5,9 @@
 }
 
 .header{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display:block;
+    text-align: center;
+    
 }
 .Title{
     font-size: 60px;
@@ -18,8 +18,8 @@
 .btn{
     margin-right: 20px;
     margin-top: 20px;
-    height: 40px;
-    width: 90px;
+    height: 60px;
+    width: 180px;
 }
 
 .headerImg{
@@ -29,4 +29,11 @@
 }
 .img{
      display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2%;
+
+}
+.img h1{
+    font-size: 5rem;
 }

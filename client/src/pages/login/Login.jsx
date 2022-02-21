@@ -42,8 +42,8 @@ export default function Login() {
                     
                     <div class="col">
                         
-                        <span className="loginTitle">Login</span>
                         <form className="loginForm" onSubmit={handleSubmit}>
+                        <span className="loginTitle">Login</span>
                             <label>Organisation</label>
                             <input type="text" className="loginInput" placeholder="Enter your organisation..." 
                             ref={userRef} autoFocus/>
@@ -57,11 +57,7 @@ export default function Login() {
                         {error? (<span style={{color:"red", marginTop:"15px"}}> Something went wrong! </span>):(null) }
 
                     </div>
-                    <div class="col">
-
-                        <img src={loginimage} />
-
-                    </div>
+     
                 </div>
             </div>
 
