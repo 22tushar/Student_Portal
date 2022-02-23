@@ -13,8 +13,8 @@ export default function Header() {
        </div>
 
         <div  className="img">
-             <a href='/login'><button className="btn btn-outline-light">Login</button></a>
-             <a href='/register'><button className="btn btn-outline-light">Register</button></a>  
+             <a href='/login'><button className="btn btn-outline-warning">Login</button></a>
+             <a href='/register'><button className="btn btn-outline-warning">Register</button></a>  
        </div>  
 
       </div>
