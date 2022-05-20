@@ -13,19 +13,19 @@ export default function Write() {
     const [cats, setCats] = useState([]);
     const [catCheck, setCatCheck] = useState([]);
 
-    // GET CATEGORIES
-    useEffect(()=>{
-        const getCats = async ()=>{
-            await axios.get("/categories")
-            .then((res)=>{
-                setCats(res.data)
-            })
-            .catch((err)=>{
-                console.log(err);
-            })
-        }
-        getCats();
-    },[]);
+    // // GET CATEGORIES
+    // useEffect(()=>{
+    //     const getCats = async ()=>{
+    //         await axios.get("/categories")
+    //         .then((res)=>{
+    //             setCats(res.data)
+    //         })
+    //         .catch((err)=>{
+    //             console.log(err);
+    //         })
+    //     }
+    //     getCats();
+    // },[]);
 
     const handleSubmit = async (e) =>{
         e.preventDefault();

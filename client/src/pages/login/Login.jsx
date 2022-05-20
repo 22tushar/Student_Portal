@@ -4,8 +4,7 @@ import { Link } from "react-router-dom"
 import { Context } from "../../context/Context";
 import "./login.css"
 import loginimage from '../../images/loginimage.png'
-
-
+// import { SignInWithGoogle } from "../../firebase";
 export default function Login() {
     const userRef= useRef()
     const passwordRef = useRef()
@@ -13,7 +12,6 @@ export default function Login() {
 
     const [error, setError] = useState(false)
 
-    // HANDLE SUBMIT
     const handleSubmit = async (e) =>{
         e.preventDefault();
         setError(false)
@@ -53,7 +51,9 @@ export default function Login() {
                             ref={passwordRef} />
 
                             <button className="loginButton" type="submit" disabled={isFetching}>Login</button>
+                            <button className="loginButton" type="submit" disabled={isFetching}>Login With Google</button>
                         </form>
+                       
                         {error? (<span style={{color:"red", marginTop:"15px"}}> Something went wrong! </span>):(null) }
 
                     </div>

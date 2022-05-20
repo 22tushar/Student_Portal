@@ -1,7 +1,7 @@
 import './aboutComponent.css'
-import ImageOne from '../../images/writeimage1.jpg'
-import ImageTwo from '../../images/headerImage2.jpg'
-import ImageThree from '../../images/singlepost1.jpg'
+// import ImageOne from '../../images/writeimage1.jpg'
+// import ImageTwo from '../../images/headerImage2.jpg'
+// import ImageThree from '../../images/singlepost1.jpg'
 
 
 export default function AboutComponent() {
@@ -13,7 +13,7 @@ export default function AboutComponent() {
                 
                 <div className="imageAbout">
                     <img 
-                    src={ImageOne} 
+                    // src={ImageOne} 
                     alt=""
                     className="imgAbout" 
                     />
@@ -37,7 +37,7 @@ export default function AboutComponent() {
 
                 <div className="imageAbout">
                     <img 
-                    src={ImageTwo} 
+                    // src={ImageTwo} 
                     alt=""
                     className="imgAbout" 
                     />
@@ -49,7 +49,7 @@ export default function AboutComponent() {
                 
                 <div className="imageAbout">
                     <img 
-                    src={ImageThree} 
+                    // src={ImageThree} 
                     alt=""
                     className="imgAbout" 
                     />

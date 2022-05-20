@@ -1,5 +1,5 @@
 import './sidebar.css'
-import ImageSidebar1 from '../../images/sidebar1.jpg'
+// import ImageSidebar1 from '../../images/sidebar1.jpg'
 import { useEffect, useState } from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
@@ -26,7 +26,7 @@ export default function Sidebar() {
            
            <div className="sidebarItem">
                 <span className="firstSidebarTitle">ABOUT ME</span>
-                    <img src={ImageSidebar1} alt="" />
+                    {/* <img src={ImageSidebar1} alt="" /> */}
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Libero neque vel repellendus eius? Eaque architecto veniam, distinctio, impedit libero eius.

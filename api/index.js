@@ -10,7 +10,6 @@ const path = require("path");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
-const categoryRoute = require("./routes/categories");
 const mailRouter = require("./routes/mail");
 
 dotenv.config();
@@ -59,7 +58,6 @@ app.post("/api/upload", upload.single("file"), (req, res) =>{
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
-app.use("/api/categories", categoryRoute);
 app.use("/api/mail", mailRouter);
 
 app.listen("5000",()=>{
