@@ -16,7 +16,7 @@ router.post("/register",async (req,res)=>{
             role:req.body.role,
             email: req.body.email,
             password: hashedPass,
-            profilePic: req.body.profilePic,
+            // profilePic: req.body.profilePic,
         });
 
         const user = await newUser.save();

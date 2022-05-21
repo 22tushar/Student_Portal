@@ -54,7 +54,7 @@ export default function Login() {
                             <button className="loginButton" type="submit" disabled={isFetching}>Login With Google</button>
                         </form>
                        
-                        {error? (<span style={{color:"red", marginTop:"15px"}}> Something went wrong! </span>):(null) }
+                        {error?(alert("Something went wrong")):(null) }
 
                     </div>
      

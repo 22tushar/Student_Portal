@@ -58,14 +58,14 @@ export default function Write() {
         })
     }
 
-    const handleChange = (e)=>{
-        if(e.target.checked){
-            setCatCheck(state=>[...state, e.target.value]);
-        }
-        else{
-            setCatCheck(catCheck.filter(item=>item !== e.target.value))
-        }
-    }
+    // const handleChange = (e)=>{
+    //     if(e.target.checked){
+    //         setCatCheck(state=>[...state, e.target.value]);
+    //     }
+    //     else{
+    //         setCatCheck(catCheck.filter(item=>item !== e.target.value))
+    //     }
+    // }
 
     return (
         <div className="write">
@@ -104,7 +104,7 @@ export default function Write() {
                     <div className="writeFormSubmit">
                         <button className="writeSubmit" type="submit">Publish</button>
                         {/* LIST CATEGORIES */}
-                        <div className="categoriesList">
+                        {/* <div className="categoriesList">
                             <span className="writeCatsTitle">Choice categories</span>
                             <div className="writeCatsList">
                                 {cats.map((cat,index)=>(
@@ -114,7 +114,7 @@ export default function Write() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </form>

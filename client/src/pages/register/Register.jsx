@@ -17,6 +17,7 @@ export default function Register() {
         setError(false)
         await axios.post("/auth/register",{
             username,
+            role,
             email,
             password,
         })
@@ -28,7 +29,7 @@ export default function Register() {
         })
         .catch((err)=>{
             setError(true)
-            // console.log(err);
+            // console.log("error");
         });
     }
 
@@ -59,7 +60,7 @@ export default function Register() {
                         <button className="registerButton" type="submit">Register</button>
                         </form>
 
-                        {error? (<span style={{color:"red", marginTop:"15px"}}> Something went wrong! </span>):(null) }
+                        {error?(alert("Something went wrong")):(null) }
 
                     </div>
                 </div>
