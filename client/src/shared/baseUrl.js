@@ -1,4 +1,4 @@
-export const baseURL = 'http://localhost:5000/api';
+export const baseURL = ' https://studentportal02.herokuapp.com/api';
 
 // POUR LES IMAGES DU BACK END
-export const publicFile = 'http://localhost:5000/images/';
+export const publicFile = ' https://studentportal02.herokuapp.com/images/';
