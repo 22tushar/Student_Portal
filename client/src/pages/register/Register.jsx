@@ -60,7 +60,7 @@ export default function Register() {
                         <button className="registerButton" type="submit">Register</button>
                         </form>
 
-                        {error?(alert("Something went wrong")):(null) }
+                       
 
                     </div>
                 </div>
