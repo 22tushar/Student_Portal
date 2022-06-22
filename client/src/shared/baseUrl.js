@@ -1,4 +1,4 @@
-export const baseURL = 'https://git.heroku.com/studentportal02.git/api';
+export const baseURL = 'https://studentportal02.herokuapp.com/api';
 
 // POUR LES IMAGES DU BACK END
-export const publicFile = 'https://git.heroku.com/studentportal02.git/images/';
+export const publicFile = 'https://studentportal02.herokuapp.com/api/images/';
