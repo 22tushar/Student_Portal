@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 // REGISTER
 router.post("/register",async (req,res)=>{
     try {
-        // crypter le password
+      
             const salt = await bcrypt.genSalt(10);
             const hashedPass = await bcrypt.hash(req.body.password, salt);
             
@@ -16,7 +16,6 @@ router.post("/register",async (req,res)=>{
             role:req.body.role,
             email: req.body.email,
             password: hashedPass,
-            // profilePic: req.body.profilePic,
         });
 
         const user = await newUser.save();

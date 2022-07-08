@@ -79,8 +79,7 @@ export default function SinglePost() {
                 ) : (
                     <h1 className="singlePostTitle">
                         {post?.username}'s Profile
-                        {/* Affichage des icons delete et edit : si l'utilistaeur == l'auteur
-                        et s'il est deja un utilisateur (user?.username) */}
+                       
                         {(post.username === user?.username)?(
                             <div className="singlePostEdit">
                                 <i className="singlePostIcon far fa-edit" onClick={()=>setUpdateMode(true)}></i>
